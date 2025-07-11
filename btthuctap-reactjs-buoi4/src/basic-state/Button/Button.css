@@ -1,0 +1,83 @@
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.25s;
+  margin: 0.5em;
+}
+
+.btn:focus,
+.btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #1890ff;
+  color: white;
+  border-color: #1890ff;
+}
+.btn-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+/* Default Button */
+.btn-default {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #d9d9d9;
+}
+.btn-default:hover {
+  color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+/* Text Button */
+.btn-text {
+  border: none;
+  background-color: transparent;
+  color: #1890ff;
+  font-size: 14px;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-text:hover {
+  background-color: rgba(24, 144, 255, 0.1); /* nền nhạt xanh khi hover */
+}
+
+/* Link Button */
+.btn-link {
+  border: none;
+  background-color: transparent;
+  color: #1890ff;
+  font-size: 14px;
+  padding: 4px 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s;
+  text-decoration: underline;
+}
+
+.btn-link:hover {
+  color: #40a9ff;
+}
+
+
+/* Outline Button */
+.btn-outline {
+  border-color: #1890ff;
+  background-color: transparent;
+  color: #1890ff;
+}
+.btn-outline:hover {
+  background-color: #1890ff;
+  color: white;
+}

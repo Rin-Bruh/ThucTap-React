@@ -1,0 +1,66 @@
+
+.app-header {
+  grid-area: header;
+  padding: 16px 32px;
+  background-color: #e9ecef;
+  color: #495057;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-logo {
+  height: 40px;
+  pointer-events: none;
+  margin-right: 16px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.app-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.app-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #61dafb;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #61dafb;
+}

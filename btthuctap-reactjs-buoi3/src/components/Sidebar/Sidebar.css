@@ -1,0 +1,25 @@
+.sidebar {
+  grid-area: sidebar;
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #e9ecef;
+}

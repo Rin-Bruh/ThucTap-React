@@ -1,0 +1,12 @@
+.main-content {
+  grid-area: main;
+  padding: 20px;
+  overflow-y: auto;
+
+  /* Thêm để căn giữa nội dung */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* nếu muốn căn giữa cả theo chiều dọc */
+  text-align: center;
+}

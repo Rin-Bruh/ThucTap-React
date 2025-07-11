@@ -1,0 +1,8 @@
+.dashboard-footer {
+  grid-area: footer;
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
