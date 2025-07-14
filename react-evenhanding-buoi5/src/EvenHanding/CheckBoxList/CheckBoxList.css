@@ -1,0 +1,42 @@
+.checkbox-list-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #1f2937;
+  text-align: center;
+}
+
+.checkbox-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checkbox-list li {
+  margin: 10px 0;
+}
+
+.checkbox-list label {
+  font-size: 16px;
+  cursor: pointer;
+  color: #374151;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.selected-output {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #111827;
+}

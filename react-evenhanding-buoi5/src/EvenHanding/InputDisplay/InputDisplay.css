@@ -1,0 +1,34 @@
+.input-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.text-input:focus {
+  border-color: #3b82f6;
+}
+
+.output {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #111827;
+}
+
+.output span {
+  font-weight: bold;
+  color: #2563eb;
+}
