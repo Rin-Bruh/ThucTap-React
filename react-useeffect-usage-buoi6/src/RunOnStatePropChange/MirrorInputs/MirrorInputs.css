@@ -1,0 +1,25 @@
+.mirror-inputs {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e0f2fe;
+  color: black;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.mirror-inputs input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1.5px solid #60a5fa;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.mirror-inputs input:focus {
+  border-color: #3b82f6;
+}

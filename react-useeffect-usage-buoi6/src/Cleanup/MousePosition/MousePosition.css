@@ -1,0 +1,10 @@
+.mouse-box {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff7ed;
+  border: 2px dashed #fb923c;
+  border-radius: 12px;
+  text-align: center;
+  color: #c2410c;
+}

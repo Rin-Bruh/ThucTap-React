@@ -1,0 +1,10 @@
+.key-display {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #dcfce7;
+  border: 2px dashed #22c55e;
+  border-radius: 12px;
+  text-align: center;
+  color: #15803d;
+}

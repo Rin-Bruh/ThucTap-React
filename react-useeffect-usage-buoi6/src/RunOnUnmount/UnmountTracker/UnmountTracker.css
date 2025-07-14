@@ -1,0 +1,10 @@
+.unmount-tracker-box {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #e0f2fe;
+  border: 2px dashed #0284c7;
+  border-radius: 12px;
+  text-align: center;
+  color: #0369a1;
+}
